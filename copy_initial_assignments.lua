@@ -1,3 +1,9 @@
+-- Copy the Resources\plugins\FlyWithLua\initial_assignments.txt into Resources\plugins\FlyWithLua\Scripts\joystick_<PLANE_ICAO>.lua
+-- and make it conditionally, automatically load when the plane is loaded.
+-- The script can be triggered via the FlyWithLua plugin macro menu: "Save joystick assignments".
+
+-- Installation: just copy into Resources\plugins\FlyWithLua\Scripts and restart X-Plane or reload your LUA scripts.
+
 function copy_initial_assignments()
 	 -- first we have to open the existing initial_assigments.txt file
     local infile
