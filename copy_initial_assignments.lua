@@ -33,4 +33,4 @@ function copy_initial_assignments()
     infile:close()
 end
 
-add_macro("Save joystick assignments", "copy_initial_assignments()")
+add_macro("Save joystick assignments", "save_initial_assignments(); copy_initial_assignments()")
