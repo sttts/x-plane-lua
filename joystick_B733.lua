@@ -13,7 +13,6 @@ if PLANE_ICAO == "B733" then
     set_axis_assignment( 27, "throttle", "normal" )
     set_axis_assignment( 28, "pitch", "normal" )
     set_axis_assignment( 29, "roll", "normal" )
-    set_axis_assignment( 50, "mixture", "normal" )
     set_axis_assignment( 51, "pitch", "normal" )
     set_axis_assignment( 52, "roll", "normal" )
     set_axis_assignment( 76, "yaw", "normal" )
