@@ -42,7 +42,7 @@ if PLANE_ICAO == "BE58" then
     set_button_assignment( (4*40) + 17, "sim/general/hat_switch_down_left" )
     set_button_assignment( (4*40) + 18, "sim/general/hat_switch_left" )
     set_button_assignment( (8*40) + 0, "sim/weapons/fire_any_shell" )
-    set_button_assignment( (8*40) + 1, "sim/engines/TOGA_power" )
+    set_button_assignment( (8*40) + 1, "sim/operation/screenshot" )
     set_button_assignment( (8*40) + 4, "sim/weapons/weapon_target_up" )
     set_button_assignment( (8*40) + 6, "sim/weapons/weapon_target_down" )
     set_button_assignment( (8*40) + 8, "172/views/walk_forw" )
